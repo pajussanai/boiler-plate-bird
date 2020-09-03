@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://birdkim:tmax2020@boilerplate.z2irs.mongodb.net/<
 }).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! dldididid')
 })
 
 //use post
